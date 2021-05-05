@@ -1,0 +1,13 @@
+[package]
+name = "dbgtools-hexdump"
+version = "0.1.0"
+authors = ["Jan Danielsson <jan.danielsson@qrnch.com>"]
+edition = "2018"
+license = "0BSD"
+categories = [ "development-tools" ]
+keywords = [ "debugging" ]
+repository = "https://github.com/openqrnch/dbgtools-hexdump"
+description = "Hexdump functions for use in dbgtools."
+exclude = [ "examples", "rustfmt.toml" ]
+
+[dependencies]
